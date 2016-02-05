@@ -52,6 +52,7 @@ table {
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
 }
 h1, h2, h3, h4, h5, h6, .title-font {
     font-family: 'Amatic SC', cursive;
@@ -68,11 +69,50 @@ h1, h2, h3, h4, h5, h6, .title-font {
 header {
     background: url(/img/octopus-header.jpg) no-repeat center center;
     background-size: cover;
-    padding: 150px 0;
+    padding: 120px 0;
 }
-
 header h1{
     text-align: center;
     font-size: 120px;
-    color: #eee;
+    color: #fff;
+}
+header #tagline {
+    color: #fff;
+    text-align: center;
+    margin: 40px 20%;
+    font-size: 20px;
+}
+
+/* Layout */
+
+#main {
+    margin: 50px 0;
+}
+
+
+/* Articles */
+
+article {
+    margin-top: 100px;
+}
+article h2 {
+    font-size: 40px;
+    background: url(/img/maroon-bar-titles.png) repeat-x center center;
+}
+article h2 span {
+    display: inline-block;
+    padding-right: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    background-color: white;
+}
+article p {
+    margin-bottom: 15px;
+}
+article .author-date {
+    font-style: italic;
+    text-align: right;
+}
+article .content {
+    margin: 40px 60px;
 }
