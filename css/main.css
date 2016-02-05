@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5, h6, .title-font {
 
 a {
     text-decoration: none;
+    color: #8B0000;
 }
 a:hover {
     text-decoration: underline;
@@ -88,6 +89,20 @@ header #tagline {
     text-align: center;
     margin: 40px 20%;
     font-size: 20px;
+}
+header.article-header {
+    padding: 30px 0;
+}
+header.article-header h1 {
+    font-size: 60px;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+}
+nav a {
+    color: #eee;
 }
 
 /* Layout */
@@ -122,6 +137,10 @@ article .author-date {
 }
 article .content {
     margin: 40px 60px;
+}
+article .read_more {
+    font-style: italic;
+    text-align: right;
 }
 
 /* Footer */
