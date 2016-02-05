@@ -63,6 +63,13 @@ h1, h2, h3, h4, h5, h6, .title-font {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 
 /* Header */
 
@@ -115,4 +122,16 @@ article .author-date {
 }
 article .content {
     margin: 40px 60px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 150px;
+    padding: 5px 0;
+    background-color: black;
+    color: #eee;
+}
+footer a {
+    color: #eee;
 }
