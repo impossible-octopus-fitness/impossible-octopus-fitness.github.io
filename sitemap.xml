@@ -23,4 +23,11 @@
       <priority>0.8</priority>
    </url>
 
+   <url>
+      <loc>http://impossible-octopus-fitness.github.io/articles/amy.html</loc>
+      <lastmod>2016-02-23</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
 </urlset>
