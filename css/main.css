@@ -161,6 +161,13 @@ footer {
 footer a {
     color: #eee;
 }
+footer #social {
+    float: right;
+}
+footer #social a {
+    display: inline-block;
+    margin-right: 10px;
+}
 
 
 /* Responsive layout */
